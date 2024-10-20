@@ -1,0 +1,255 @@
+/* Svg Color */
+#color{
+    width: 80%;
+    height: 20rem;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+}
+.yellow{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    width: 50%;
+    height: 100%;
+    background-color: #fffbf4;
+    filter: blur(10px);
+    z-index: -2;
+}
+.green{
+    border-radius: 30% 70% 50% 50% / 70% 59% 41% 30% ;
+    background-color:#f7f3ff;
+    width: 50%;
+    height: 100%;
+    filter: blur(10px);
+    z-index: -2;
+}
+
+/* Center Div*/
+.center-content{
+    width: 67%;
+    font-size: 2.3rem;
+    margin: auto;
+    margin-top: 4.2rem;
+    text-align: center;
+
+}
+.center-content p{
+    color: #242424;
+    margin-top: 2rem;
+    font-size: 19px;
+
+}
+
+/* Form Box */
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(to right, rgb(22,82,245), rgb(111,60,239));
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+
+  }
+
+/* Video */
+#video{
+    margin: auto;
+    width: 1350px;
+    margin-top: 20px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+/* Trusted Customer */
+#trust{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 7rem;
+}
+#trustGrid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+    margin-top: 3rem;
+    width: 70%;
+}
+#trustGrid div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#trustGrid div img{
+    height: 83%;
+    width: 100%;
+}
+
+/* Div below trusted customer div */
+.lowerDivs{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.mainImg{
+    width: 35rem;
+    height:20rem;
+}
+
+.blueWord{
+    color: #5A41F0;
+}
+.smallImg{
+    width:50px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.contentDiv{
+    width: 30%;
+}
+.contentDiv p{
+    margin-top: 30px;
+}
+.contentDiv a{
+    text-decoration: none;
+}
+.imgDiv{
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 9rem;
+    background-color: #0C111D;
+    padding-bottom: 30px;
+    padding-top: 9rem;
+}
+
+
+.footer-nav {
+    display: flex;
+    flex-direction: row; 
+    color: #ffffff;
+    justify-content: space-evenly; 
+    margin-top: 30px;
+    background-color: #0C111D;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer-nav div {
+    margin: 0 20px; 
+}
+
+.footer-nav-title {
+    font-weight: bold; 
+}
+
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#copyRight{
+    color: white;
+    width: 30%;
+    font-size: 10px;
+    margin-top: -41px;
+    margin-left: 60%;
+}
+
+/* Book Banner */
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 3rem;
+    height: 28vh;
+}
+.bannerContainer{
+    background: linear-gradient(to right, #9AB2EB, #f06b6b);
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#subscribeContainer{
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    color: #272727;
+    width: 41%;
+}
+#subscribeContainer div:nth-child(1) p{
+    font-size: 12px;
+}
+#demo{
+    font-size: 45px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.email-subscribe{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#subscribe{
+    font-weight: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+}
